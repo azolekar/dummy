@@ -1,1 +1,1 @@
-from .prompt import generate_output
+from .prompt import report_count
