@@ -3,12 +3,13 @@
 ## Overview
 *The Dummy project analyzes a full article stored in corpus.txt and counts the frequency of a specified word or phrase (token).*
 ## File structure 
-dummy/
+* dummy/
 │
 ├── __init__.py
 ├── counter.py
 └── prompt.py
-corpus.txt
+corpus.txt *
+
 
 ## File Descriptions
 * dummy/__init__.py: Marks the directory as a Python package (can be empty).
@@ -25,6 +26,6 @@ import dummy.prompt
 reload(dummy.prompt)
 from dummy.prompt import report_count
 
-# Specify the token you want to count
+## Specify the token you want to count
 token = "Newgate"
 print(report_count(token))
